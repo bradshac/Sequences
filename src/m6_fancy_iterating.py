@@ -360,11 +360,11 @@ def print_all_items_forwards(sequence):
     for k in range(len(sequence)):
         print(sequence[k])
 
-
-
 # ----------------------------------------------------------------------
 # Iterating through the ENTIRE sequence, BACKWARDs.
 # ----------------------------------------------------------------------
+
+
 def print_all_items_backwards(sequence):
     """
     Prints the items in the given sequence in the REVERSE of the order
@@ -414,6 +414,8 @@ def print_items_at_odd_indices(sequence):
 # Iterating through PART of a sequence:
 #   -- in this sample problem, the second half.
 # ----------------------------------------------------------------------
+
+
 def print_items_in_second_half(sequence):
     """
     Prints the items in the second half of the given sequence.
@@ -469,7 +471,6 @@ def print_items_that_are_bigger_than_5(sequence):
             print(sequence[k], 'is at index', k)
 
 
-
 # ----------------------------------------------------------------------
 # Iterating through a sequence, selecting items:
 #   -- in this sample problem, the items that are strings.
@@ -487,7 +488,7 @@ def print_items_that_are_strings(sequence):
       bone is at index 4
     """
     # ------------------------------------------------------------------
-    # TODO: 8. Implement and test this function.
+    # Done: 8. Implement and test this function.
     #
     # IMPORTANT:
     #   -- A string is, by definition, an object whose type is   str.
@@ -507,6 +508,8 @@ def print_items_that_are_strings(sequence):
 # Iterating through a sequence, selecting items:
 #   -- in this sample problem, the items that are odd integers.
 # ----------------------------------------------------------------------
+
+
 def print_items_that_are_odd_integers(sequence):
     """
     Prints the items in the given sequence that are odd integers,
@@ -532,4 +535,6 @@ def print_items_that_are_odd_integers(sequence):
 # ----------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
 # ----------------------------------------------------------------------
+
+
 main()
